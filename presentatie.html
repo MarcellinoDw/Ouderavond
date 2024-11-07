@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCR Website</title>
+    <link rel="stylesheet" href="presentatie.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#overons">Over ons</a></li>
+                <li><a href="#canvas">Canvas</a></li>
+                <li><a href="#eduarte">EduArte</a></li>
+                <li><a href="#opleidingswijzer">Opleidingswijzer</a></li>
+                <li><a href="#locatiegids">Locatiegids</a></li>
+                <li><a href="#begeleiding">Begeleiding</a></li>
+                <li><a href="#software">Software</a></li>
+                <li><a href="#examenplan">Examenplan</a></li>
+                <li><a href="#contactpersonen">Contactpersonen</a></li>
+                <li><a href="#bsa">BSA</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <main class="content">
+        <section id="home">
+            <h1>Home Pagina</h1>
+            <h2>Welkom op de home pagina van TCR. Hier vindt u de informatie die u nodig heeft.</h2>
+            
+            <!-- Contactformulier toegevoegd -->
+            <div class="contact-form">
+                <h2>Contacteer Ons</h2>
+                <form action="verwerk_formulier.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Naam</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Vul je naam in"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Vul je e-mailadres in"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Bericht</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Schrijf hier je bericht"
+                            required
+                        ></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Verstuur Bericht</button>
+                    </div>
+                </form>
+            </div>
+        </section>        
+        
+        <section id="overons">
+            <h1>Dit is de Over ons pagina!</h1>
+            
+            <h2>Marcellino</h2>
+            <div class="Marcellino-image-wrapper">
+                <img src="Marcellino.jpg" alt="Foto van Marcellino">
+                <img src="Bernardo.jpg" alt="Foto van Bernardo">
+
+            </div>
+            <p>  Marcellino is 18 jaar, van Surinaamse en Portugese afkomst. Hij houdt van sporten zoals voetbal en zwemmen en speelde vroeger vooral veel voetbal waarbij hij een kans had om bij Feyenoord te spelen. Zijn favorieten film is Avengers Endgame vanwegen dat hij de actie die erin zat heel interessant vond en het leuk vond hoe alle superhelden bij elkaar kwamen om samen te werken zodat ze de antagonist van de film konden verslaan. Marcellino vindt de opleiding Software Developer heel interessant vanwege zijn broer. </p>            
+            <h2>Bernardo</h2>
+            <p>Bernardo is 16 jaar oud, van Portugese en Braziliaanse afkomst. Hij houdt van sporten zoals voetbal, basketbal en zwemmen, en heeft medailles gewonnen met wedstrijdzwemmen. Hij koos voor IT omdat vrienden die kant op gingen en hij een baan in IT wil voor een goed inkomen. Zijn favoriete film is *Deadpool X Wolverine* vanwege het interessante verhaal en zijn liefde voor Deadpool. Tot nu toe vindt hij zijn IT-opleiding vooral leuk vanwege het programmeren en is benieuwd naar toekomstige projecten.</p>  
+            <div class="Bernardo-image-wrapper">
+            </div>
+            
+
+       
+        </section>
+        
+        <section id="canvas">
+            <h1>Canvas</h1>
+            <p>Canvas is Een webgebaseerd LMS (Learning Management System). Het wordt gebruikt door onderwijsinstellingen, docenten, leerlingen en cursisten om toegang te krijgen tot online lesmateriaal, dit te beheren en om te communiceren over de ontwikkeling, vaardigheden en leerprestaties. </p>
+
+            <div class="canvas-image-wrapper">
+                <img src="Schermafbeelding_2024-10-16_221818.webp" alt="Canvas Dashboard" class="canvas-image">
+            </div>
+        </section>
+
+        <section id="eduarte">
+            <h1>EduArte</h1>
+
+            <h2>Waar voor Gebruiken we EduArte?</h2>
+            <h3>aan/afwezigheid</h3>
+            <p>TCR gebruikt EduArte voor de aan/afwezigheid van de studenten. Zo kunnen de ouders en studenten zien op welke datum en tijd de studenten aanwezig waren en wanneer niet.</p>
+            <h3>Studievoortgang</h3>
+            <p>We gebruiken Eduarte voor het Aan en afwezigheid,Studievoortgang dus de cijfers die behaald worden op de opdrachten.</p>
+            <h3>BPV/stage informatie</h3>
+            <p>TCR gebruikt canvas ook om de informatie over de stage plekken van studenten op te slaan zoals contactgegevens, wat het bedrijf te bieden heeft en hoe de voortgang is van de studenten. </p>
+            <h3>Diplomering en examens</h3>
+            <p>We gebruiken ook canvas om de studenten te informeren over de examens zoals op welke dag ze zijn, hoelaat ze zijn en ook om te vertellen wanneer de studenten hun diploma krijgen!</p>
+            <a href="https://www.youtube.com/watch?v=qF_DsWeRGw0">klik hier om naar de video te gaan</a>
+        </section>
+
+        <section id="opleidingswijzer">
+            <h1>Opleidingswijzer</h1>
+            <h2>Wat bieden we aan?</h2>
+            <p>Op deze locatie biedt Techniek College Rotterdam mbo-opleidingen </p>
+            <h3>Software Developer</h3>
+            <h3> Middenkaderfunctionarist bouw/infra</h3>
+            <h3> Medewerker ICT</h3>
+            <h3>Medewerker ICT structuurklas</h3>
+            <h3>expert IT system and devices</h3>
+            <h3>chemish fysisch analist</h3>
+        </section>
+
+        <section id="locatiegids">
+            <h1>Locatiegids</h1>
+            <h2>Bereikbaarheid</h2>
+            <p>Het Techniek College Rotterdam is centraal gelegen en goed bereikbaar met zowel het openbaar vervoer als met eigen vervoer. Het metro- en busstation Zuidplein ligt op slechts een paar minuten lopen van de school. Dit maakt het reizen van en naar de locatie gemakkelijk voor studenten en medewerkers die met de metro of bus komen. Voor fietsers en scooterrijders hebben we een veilige, overdekte fietsenstalling waar je je tweewieler kunt parkeren.</p>
+            <h2>Faciliteiten</h2>
+            <p>Bij het Techniek College Rotterdam vinden we het belangrijk dat je alles bij de hand hebt om succesvol te kunnen studeren. Hier zijn twee van onze belangrijkste faciliteiten:</p>
+            <h3>Kantine</h3>
+            <p> In onze ruime en moderne kantine kun je terecht voor een breed assortiment aan eten en drinken. Of je nu een snelle snack zoekt tussen de lessen door, of een gezonde maaltijd tijdens je pauze, je vindt hier altijd iets naar je zin.</p>
+            <h3>Servicepunt</h3>
+            Voor al je praktische vragen, zoals over je rooster, je studentenpas of andere studiezaken, kun je terecht bij het servicepunt. Ons team staat klaar om je snel en vriendelijk te helpen.
+        </section>
+
+        <section id="begeleiding">
+            <h1>Begeleiding</h1>
+            <p>De begeleiding op het Techniek College Rotterdam (TCR) speelt een cruciale rol in het succes van studenten tijdens hun studie. Het college biedt diverse vormen van begeleiding, zoals:</p>
+            <h2>Studieloopbaanbegeleiding(SLB)</h2>
+            <p> Elke student krijgt een studieloopbaanbegeleider (SLB'er) toegewezen. Deze begeleider helpt je met je studievoortgang, keuzes binnen je studie, en je persoonlijke ontwikkeling. Ze zijn er om je te ondersteunen bij het maken van de juiste studie- en loopbaankeuzes en bij het behalen van je diploma.</p>
+            <h2>Extra ondersteuning</h2>
+            <p>Voor studenten die extra hulp nodig hebben, bijvoorbeeld vanwege dyslexie, persoonlijke omstandigheden, of leerproblemen, biedt TCR speciale voorzieningen. Dit kan variëren van extra tijd bij toetsen tot intensievere begeleiding.</p>
+            <h2>Stage begeleiding</h2>
+            <p>Tijdens stages worden studenten begeleid door zowel een stagebegeleider op school als een praktijkbegeleider in het bedrijf. Deze samenwerking zorgt ervoor dat je je praktijkervaringen goed kunt koppelen aan wat je in de lessen leert.</p>
+        </section>
+
+        <section id="software">
+            <h1>Software</h1>
+            <h2>HTML</h2>
+            <p>Hypertext Markup Language (HTML) is de standaard opmaaktaal voor documenten die zijn ontworpen om in een webbrowser te worden weergegeven. Het definieert de inhoud en structuur van webinhoud. Het wordt vaak ondersteund door technologieën zoals Cascading Style Sheets (CSS) en scripttalen zoals JavaScript.
+                Webbrowsers ontvangen HTML-documenten van een webserver of van lokale opslag en zetten de documenten om in multimedia-webpagina's. HTML beschrijft de structuur van een webpagina semantisch en bevatte oorspronkelijk aanwijzingen voor het uiterlijk ervan.</p>
+                <h2>CSS</h2>
+                <p>Cascading Style Sheets (CSS) is een stijlbladtaal die wordt gebruikt voor het specificeren van de presentatie en stijl van een document dat is geschreven in een opmaaktaal zoals HTML of XML (inclusief XML-dialecten zoals SVG, MathML of XHTML). CSS is een hoeksteentechnologie van het World Wide Web, naast HTML en JavaScript.[2]</p>
+                <h2>JavaScript</h2>
+                <p>JavaScript is een veelgebruikte scripttaal om webpagina's interactief te maken en webapplicaties te ontwikkelen. Naast HTML en CSS is JavaScript een van de kerntechnologieën van het wereldwijde web.</p>
+        </section>
+
+        <section id="examenplan">
+            <h1>Examenplan</h1>
+            <p>
+
+                
+                Het examenplan van het Techniek College Rotterdam voor 2024-2025 biedt een overzicht van de onderdelen waarvoor je examen moet doen, afhankelijk van je opleiding en niveau. Hierin staat vermeld op welke vaardigheden en kennis getoetst wordt en in welke periode de examens plaatsvinden.</p>
+            
+                <p> Het plan is afgestemd op het jaar waarin je met je studie bent begonnen. Voor specifieke studierichtingen, zoals de schildersopleiding, kun je de examenplannen online raadplegen en downloaden. Deze plannen bevatten belangrijke informatie over theorie- en praktijkexamens, waaronder ook de praktijkbeoordelingen die je moet voltooien​</p>
+                <h2></h2>
+                Je kunt de exacte documenten en examenroosters voor jouw opleiding vinden via de downloadsectie van de Techniek College Rotterdam website.
+
+            
+        </section>
+
+        <!DOCTYPE html>
+        <html lang="nl">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Contactpersonen</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <section id="contactpersonen">
+                <h1>Contactpersonen</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Functie(groep)</th>
+                            <th>Naam</th>
+                            <th>Telefoon</th>
+                            <th>E-mail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Locatieverantwoordelijke directeur</td>
+                            <td>-</td>
+                            <td>088 945 45 00</td>
+                            <td>directiesecretariaat@tcrmbo.nl</td>
+                        </tr>
+                        <tr>
+                            <td>Locatiemanager</td>
+                            <td>Dhr. P. Vroegh</td>
+                            <td>088 945 45 00</td>
+                            <td>p.vroegh@zadkine.nl</td>
+                        </tr>
+                        <tr>
+                            <td>Onderwijsteamleider IT & Online</td>
+                            <td>Dhr. R. Poppeliers</td>
+                            <td>088 945 45 00</td>
+                            <td>r.poppeliers@tcrmbo.nl</td>
+                        </tr>
+                        <tr>
+                            <td>Studentenadministratie</td>
+                            <td>Ruimte 0.046</td>
+                            <td>088 945 45 00</td>
+                            <td>Sa_techniek_zuid@tcrmbo.nl</td>
+                        </tr>
+                        <tr>
+                            <td>Verzuimloket</td>
+                            <td>Ruimte 0.046</td>
+                            <td>088 945 45 00</td>
+                            <td>g.demaat-vandijk@tcrmbo.nl</td>
+                        </tr>
+                        <tr>
+                            <td>Examenbureau Bouw</td>
+                            <td>-</td>
+                            <td>088 945 45 00</td>
+                            <td>m.vandewall@tcrmbo.nl</td>
+                        </tr>
+                        <tr>
+                            <td>Begeleidingsteam</td>
+                            <td>-</td>
+                            <td>088 945 45 00</td>
+                            <td>Via je studieloopbaanbegeleider</td>
+                        </tr>
+                        <tr>
+                            <td>Begeleidingscoördinator</td>
+                            <td>Mevr. I. Ketelaar</td>
+                            <td>088 945 45 00</td>
+                            <td>i.ketelaar@tcrmbo.nl</td>
+                        </tr>
+                        <tr>
+                            <td>Klachtencoördinator</td>
+                            <td>-</td>
+                            <td>088 945 45 00</td>
+                            <td><a href="http://www.techniekcollegerotterdam.nl/klachtenloket" target="_blank">www.techniekcollegerotterdam.nl/klachtenloket</a></td>
+                        </tr>
+                        <tr>
+                            <td>Techniek Info Punt</td>
+                            <td>Ruimte 1.047</td>
+                            <td>088 945 45 00</td>
+                            <td>techniekinfopunt@tcrmbo.nl</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </body>
+        </html>
+        
+        <section id="bsa">
+            <h1>BSA</h1>
+            <p>Het Bindend Studieadvies (BSA) bij het Techniek College Rotterdam, zoals bij veel onderwijsinstellingen in Nederland, is een maatregel waarbij studenten aan het einde van hun eerste studiejaar een advies krijgen over het vervolg van hun studie. Dit advies is gebaseerd op hun behaalde studiepunten en voortgang. Als een student niet genoeg studiepunten heeft behaald of onvoldoende voortgang heeft geboekt, kan het BSA negatief zijn. Dit kan betekenen dat de student de opleiding moet verlaten.
+
+                Voor het precieze aantal punten en de specifieke criteria kun je de website van het Techniek College Rotterdam raadplegen. Vaak ligt de grens bij 50-60% van de te behalen studiepunten in het eerste jaar.</p>
+        </section>
+    </main>
+
+</body>
+</html>
